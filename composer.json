@@ -1,0 +1,14 @@
+{
+  "name": "clickandmortar/alexa-magento2-module",
+  "description": "Alexa Magento 2 Module for Magento 2 and Amazon Alexa.",
+  "type": "magento2-module",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "ClickAndMortar\\Alexa\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
